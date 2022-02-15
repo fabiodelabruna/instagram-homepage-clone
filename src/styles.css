@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+ /**  38,38,38; */
+
+body, input, textarea, button {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+main > article {
+  margin-top: 80px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#phones-container {
+  width: 450px;
+  height: 620px;
+}
+
+#phones {
+  height: 100%;
+  background-image: url("../assets/phones.png");
+}
+
+#login-container {
+  width: 350px;
+  height: 550px;
+}
+
+#login {
+  padding: 10px 0;
+  padding-bottom: 20px;
+  border: 1px solid rgba(219,219,219,1);
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login > header {
+ padding: 20px 0;
+}
+
+#login > form {
+  width: 100%;
+  padding: 0 40px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login > form > input {
+  width: 100%;
+  padding: 10px 0 10px 8px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid rgba(219, 219, 219 ,1);
+}
+
+#login > form > input:first-child {
+  margin-bottom: 8px;
+}
+
+#login > form > button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 5px 9px;
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: rgba(0, 149, 246, .3);
+  opacity: 1;
+}
+
+#separator {
+  width: 100%;
+  margin-top: 18px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+}
+
+#separator .line-separator {
+  height: 1px;
+  width: 100%;
+  vertical-align: baseline;
+  border-bottom: 1px solid rgba(219, 219, 219 ,1);
+}
+
+#separator .text-separator {
+  margin: 0 18px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(142, 142, 142, 1);
+}
+
+#facebook-login {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+#facebook-login > a {
+  color: #385185;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+#facebook-login > a > img {
+  margin-right: 8px;
+}
+
+#password-recovery {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#password-recovery > a {
+  font-size: 12px;
+  color: #00376b;
+  text-decoration: none;
+}
+
+#create-account {
+  width: 100%;
+  margin-top: 10px;
+  padding: 20px 0;
+  border: 1px solid rgba(219,219,219,1);
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+#create-account span, #create-account a  {
+  font-size: 14px;
+}
+
+#create-account a {
+  margin-left: 5px;
+  color: #0095f6;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#download-apps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#download-apps > span {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #262626;
+}
+
+#download-apps > div { 
+  display: flex;
+  justify-content: center;
+}
+
+#download-apps img {
+  height: 40px;
+  width: 136px;
+}
+
+#download-apps img:last-child {
+  margin-left: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer div {
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer a {
+  margin-right: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #8e8e8e;
+  text-decoration: none;
+}
+
+footer a:last-child {
+  margin-right: 0;
+}
+
+footer div:last-child {
+  margin-top: 10px;
+}
