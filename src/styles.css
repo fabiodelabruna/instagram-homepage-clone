@@ -38,6 +38,13 @@ main > article {
 #phones {
   height: 100%;
   background-image: url("../assets/phones.png");
+  position: relative;
+}
+
+#phones img {
+  position: absolute;
+  left: 151px;
+  top: 100px
 }
 
 #login-container {
